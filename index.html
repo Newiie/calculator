@@ -1,37 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <script src="main.js" defer></script>
-        <link rel="stylesheet" href="style.css">
-        <title>Calculator</title>
-    </head>
-    <body>
-        <div class="title">Calculator</div>
-        <div id="calculator-grid">
-            <div class="interface">
-                <div data-previous-answer class="previous-answer"></div>
-                <div data-current-answer class="current-answer"></div>
-            </div>
-            <button data-number>7</button>
-            <button data-number>8</button>
-            <button data-number>9</button>
-            <button data-clearAll>CA</button>
-            <button data-delete>DEL</button>
-            <button data-number>4</button>
-            <button data-number>5</button>
-            <button data-number>6</button>
-            <button data-operator>x</button>
-            <button data-operator>/</button>
-            <button data-number>1</button>
-            <button data-number>2</button>
-            <button data-number>3</button>
-            <button data-operator>+</button>
-            <button data-operator >-</button>
-            <button data-number>00</button>
-            <button data-number>0</button>
-            <button data-number>.</button>
-            <button data-equal class="grid-span-2">=</button>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">Calculator</div>
+    <div id="calculator-grid">
+        <div class="interface">
+            <div data-previous-answer class="previous-answer"></div>
+            <div data-current-answer class="current-answer"></div>
         </div>
-    </body>
+        <button class="function clear grid-span-2">AC</button>
+        <button class="function delete">DEL</button>
+        <button class="operations">/</button>
+        <button class="numbers">1</button>
+        <button class="numbers">2</button>
+        <button class="numbers">3</button>
+        <button class="operations">x</button>
+        <button  class="numbers">4</button>
+        <button  class="numbers">5</button>
+        <button  class="numbers">6</button>
+        <button class="operations">+</button>
+        <button  class="numbers">7</button>
+        <button  class="numbers">8</button>
+        <button  class="numbers">9</button>
+        <button class="operations">-</button>
+        <button  class="numbers dot">.</button>
+        <button  class="numbers">0</button>
+        <button  class="equals grid-span-2">=</button>
+    </div>
+</body>
 </html>
